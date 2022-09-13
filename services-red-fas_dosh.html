@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>НАПІВСУХА СТЯЖКА</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>        
+        :root {
+            --ogs-main-color: #BF373E;
+            --ogs-green: #1A5455;
+            --ogs-red: #BF373E;
+            --ogs-blue: #0080BD;
+
+            --ogs-hover: #992C32;
+            --ogs-hover-green: #197E80;
+            --ogs-hover-red: #992C32;
+            --ogs-hover-blue: #005F8C;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header py-4 py-xl-5" style="background-image: url(img/header-bg-4.jpg);">
+        <div class="header__container container">
+            <div class="header__top">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="header__logo logo mb-4 mb-lg-0 flex-shrink-0">
+                        <a href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse justify-content-end collapse show" id="navbarNavAltMarkup">
+                        <div class="navbar-nav d-block d-lg-none">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link link--white">Стяжка</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link link--white">Покрівля</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link link--white">Фасад</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link link--white">Інші товари</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link link--white">Наші роботи</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link link--white">Контакти</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="header__buttons d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-between">
+                            <div
+                                class="header__social-media social-media d-flex align-items-center me-4 me-xl-5 order-3 order-lg-1">
+                                <div class="social-media__item me-2 me-xl-3">
+                                    <a href="" class="social-media__link social-media__link--fb">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="16" cy="16" r="13" fill="white"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM17.6677 16.7028V25.4077H14.0661V16.7031H12.2667V13.7034H14.0661V11.9024C14.0661 9.4552 15.0821 8 17.9688 8H20.3721V11.0001H18.8699C17.7462 11.0001 17.6718 11.4193 17.6718 12.2017L17.6677 13.7031H20.3891L20.0707 16.7028H17.6677Z"
+                                                fill="var(--ogs-main-color)"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="social-media__item me-2 me-xl-3">
+                                    <a href="" class="social-media__link social-media__link--insta">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="16" cy="16" r="13" fill="white"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM12.4821 7.51816C13.3924 7.47673 13.6832 7.4666 16.0007 7.4666H15.9981C18.3163 7.4666 18.6061 7.47673 19.5163 7.51816C20.4248 7.55976 21.0452 7.70358 21.5892 7.91461C22.151 8.13239 22.6257 8.42394 23.1004 8.89862C23.575 9.37293 23.8666 9.84903 24.0853 10.4103C24.295 10.9529 24.439 11.573 24.4817 12.4814C24.5226 13.3916 24.5333 13.6825 24.5333 16C24.5333 18.3176 24.5226 18.6077 24.4817 19.5179C24.439 20.426 24.295 21.0463 24.0853 21.5891C23.8666 22.1501 23.575 22.6262 23.1004 23.1005C22.6262 23.5752 22.1508 23.8675 21.5898 24.0854C21.0468 24.2965 20.426 24.4403 19.5176 24.4819C18.6073 24.5233 18.3174 24.5334 15.9997 24.5334C13.6823 24.5334 13.3916 24.5233 12.4814 24.4819C11.5731 24.4403 10.9529 24.2965 10.4099 24.0854C9.84903 23.8675 9.37293 23.5752 8.89879 23.1005C8.4243 22.6262 8.13274 22.1501 7.91461 21.5889C7.70376 21.0463 7.55994 20.4262 7.51816 19.5177C7.47691 18.6075 7.4666 18.3176 7.4666 16C7.4666 13.6825 7.47727 13.3915 7.51798 12.4812C7.55887 11.5731 7.70287 10.9529 7.91443 10.4101C8.1331 9.84903 8.42465 9.37293 8.89933 8.89862C9.37364 8.42412 9.84974 8.13256 10.411 7.91461C10.9536 7.70358 11.5737 7.55976 12.4821 7.51816ZM16 12.4444C17.9636 12.4444 19.5556 14.0362 19.5556 16C19.5556 17.9636 17.9636 19.5556 16 19.5556C14.0362 19.5556 12.4444 17.9636 12.4444 16C12.4444 14.0362 14.0362 12.4444 16 12.4444ZM21.3333 11.5556C21.3333 11.0646 20.9353 10.6667 20.4444 10.6667C19.9535 10.6667 19.5556 11.0646 19.5556 11.5556C19.5556 12.0464 19.9535 12.4444 20.4444 12.4444C20.9353 12.4444 21.3333 12.0464 21.3333 11.5556Z"
+                                                fill="var(--ogs-main-color)"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="social-media__item">
+                                    <a href="" class="social-media__link social-media__link--tg">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="16" cy="16" r="13" fill="white"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16ZM13.0667 23.3333L13.3389 19.2548L13.3387 19.2547L20.758 12.5593C21.0836 12.2703 20.6868 12.1294 20.2546 12.3915L11.0982 18.1682L7.14312 16.9338C6.289 16.6722 6.28287 16.0853 7.33488 15.6634L22.7469 9.72057C23.4508 9.40099 24.1302 9.88963 23.8615 10.967L21.2368 23.3354C21.0535 24.2143 20.5225 24.4245 19.7867 24.0185L15.7885 21.0646L13.8667 22.9333C13.8606 22.9392 13.8546 22.9451 13.8486 22.9509C13.6336 23.1602 13.4558 23.3333 13.0667 23.3333Z"
+                                                fill="var(--ogs-main-color)"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="tel:+380675252828"
+                                class="header__phone link--white me-4 me-xl-5 order-1 order-lg-2 mt-2 mt-lg-0 mb-3 mb-lg-0">+38
+                                (067) 525 28 28</a>
+                            <div class="header__button-wrapper order-2 order-lg-3 mb-3 mb-lg-0">
+                                <a href="" class="button button--white">Перетелефонувати мені</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="header__bottom row my-4 my-xl-5 py-4 py-xl-5">
+                <div class="menu col-3 col-xl-2 d-none d-lg-block">
+                    <nav class="menu__nav">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__link link--white">Стяжка</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link link--white">Покрівля</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link link--white">Фасад</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link link--white">Інші товари</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link link--white">Наші роботи</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link link--white">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="hero col-12 col-lg-8 col-xl-9 offset-lg-1">
+                    <h1 class="hero__title heading--1 mb-4 mb-xl-5">
+                        СЕРВІСНЕ ОБСУЛГОВУВАННЯ ПОКРІВЛІ
+                    </h1>
+                    <div
+                        class="hero__action d-flex flex-column-reverse flex-lg-row align-items-start align-items-lg-center justify-content-center">
+                        <div class="header__button-wrapper flex-shrink-0 me-lg-4 me-xl-5">
+                            <a href="" class="button">Замовити послугу</a>
+                        </div>
+                        <p class="hero__subtitle mb-3 mb-lg-0">
+                            Створення даху досить дороге заняття. Ще це одна з тих частин будівлі, що частіше за інших буде піддаватися зовнішньому впливу. Тому потрібно зробити її максимально надійною і недорогою. Монтаж крівлі ідеально підходить для цих цілей.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll d-flex justify-content-center align-items-center">
+                <a href="#anq-services"
+                    class="scroll__link secondary-text--regular link--white d-flex flex-column justify-content-center align-items-center">
+                    <div class="scroll__img-wrapper img-wrapper mb-4 mb-lg-5">
+                        <img class="scroll__img img" src="img/icon-mouse.svg" alt="">
+                    </div>
+                    <span>Поїхали</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="anq-services">
+
+        <section class="destination my-4 my-xl-5 py-4 py-xl-5">
+            <div class="destination__container container">
+                <div class="heading-wrapper d-flex justify-content-between align-items-center py-4 py-xl-5">
+                    <h2 class="heading--2">ЧОМУ <span class="font--color--green">ВАРТО ВСТАНОВЛЮВАТИ</span> ФАСАДНІ ДОШКИ?</h2>
+                </div>
+                <div class="destination__list d-flex flex-wrap">
+                    <div class="destination__item p-3 p-xl-4">
+                        <h3 class="heading--3 mb-2 mb-xl-3">Прекрасний зовнішній вигляд</h3>
+                        <p>Фасадна дошка чудово виглядає на будь-якому будинку та може легко стати його окрасою.</p>
+                    </div>
+                    <div class="destination__item p-3 p-xl-4">
+                        <h3 class="heading--3 mb-2 mb-xl-3">Захист від перепадів температур</h3>
+                        <p>Завдяки своїй структурі дерево може довше утримувати тепло та зробить ваш дім більш енергоефективним.</p>
+                    </div>
+                    <div class="destination__item p-3 p-xl-4">
+                        <h3 class="heading--3 mb-2 mb-xl-3">Захист від вітру та опадів</h3>
+                        <p>Дерево - це стійкий матеріл, який завдяки додатковій обробці стане справжнім захисником вашої будівлі.</p>
+                    </div>
+                    <div class="destination__item p-3 p-xl-4">
+                        <h3 class="heading--3 mb-2 mb-xl-3">Захист від грибка та плісняви</h3>
+                        <p>Дерево добре захищає будівлю від різноманітних природніх факторів, завдяки чому мінімізує ризик утворення плісняви чи грибка на стінах.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how my-4 my-xl-5 py-4 py-xl-5">
+            <div class="how__container container">
+                <div class="heading-wrapper d-flex justify-content-between align-items-center py-4 py-xl-5">
+                    <h2 class="heading--2">ЯК МИ <span class="font--color--green">МОНТУЄМО</span> ФАСАДНУ ДОШКУ</h2>
+                </div>
+                <div class="how__video py-4 py-xl-5">
+                    <iframe src="https://www.youtube.com/embed/t0_qPFHEm-g" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="order my-4 my-xl-5 py-4 py-xl-5">
+            <div class="order__container container">
+                <div class="heading-wrapper d-flex justify-content-between align-items-center py-4 py-xl-5">
+                    <h2 class="heading--2">ЯК <span class="font--color--green">ЗАМОВИТИ</span> ПОСЛУГУ</h2>
+                </div>
+                <div class="order__list d-flex flex-wrap mb-4 mb-xl-5">
+                    <div class="order__item p-3 p-xl-4">
+                        <h2 class="heading--2 mb-2 mb-xl-3 font--color--green opacity-50">01</h2>
+                        <p>Залишить заявку на сайті або зателефонуйте нашому менеджеру</p>
+                    </div>
+                    <div class="order__item p-3 p-xl-4">
+                        <h2 class="heading--2 mb-2 mb-xl-3 font--color--green opacity-50">02</h2>
+                        <p>Отримайте безкоштовний виїзд нашого спеціаліста для замірів.</p>
+                    </div>
+                    <div class="order__item p-3 p-xl-4">
+                        <h2 class="heading--2 mb-2 mb-xl-3 font--color--green opacity-50">03</h2>
+                        <p>Розрахунок вартості, узгодження ціни та термінів виконання робіт.</p>
+                    </div>
+                    <div class="order__item p-3 p-xl-4">
+                        <h2 class="heading--2 mb-2 mb-xl-3 font--color--green opacity-50">04</h2>
+                        <p>Приїзджаємо та надаємо послугу в обумовлений термін!</p>
+                    </div>
+                </div>
+                <a href="" class="button">Замовити послугу</a>
+            </div>
+        </section>
+
+        <section class="gallery-section my-4 my-xl-5 py-4 py-xl-5">
+            <div class="gallery-section__container container">
+                <div class="heading-wrapper d-flex justify-content-between align-items-center py-4 py-xl-5">
+                    <h2 class="heading--2">ФОТОГАЛЕРЕЯ</h2>
+                </div>
+                <div class="gallery-section py-4 py-xl-5">
+                    <div class="gallery">
+                        <figure class="gallery-item gallery-item--1">
+                            <a target="_blank" href="img/gallery-fas-1.jpg"><img src="img/gallery-fas-1.jpg" class="gallery-img" alt=""></a>
+                        </figure>
+                        <figure class="gallery-item gallery-item--2">
+                            <a target="_blank" href="img/gallery-fas-2.jpg"><img src="img/gallery-fas-2.jpg" class="gallery-img" alt=""></a>
+                        </figure>
+                        <figure class="gallery-item gallery-item--3">
+                            <a target="_blank" href="img/gallery-fas-3.jpg"><img src="img/gallery-fas-3.jpg" class="gallery-img" alt=""></a>
+                        </figure>
+                        <figure class="gallery-item gallery-item--4">
+                            <a target="_blank" href="img/gallery-fas-4.jpg"><img src="img/gallery-fas-4.jpg" class="gallery-img" alt=""></a>
+                        </figure>
+                        <figure class="gallery-item gallery-item--5">
+                            <a target="_blank" href="img/gallery-fas-5.jpg"><img src="img/gallery-fas-5.jpg" class="gallery-img" alt=""></a>
+                        </figure>
+                        <figure class="gallery-item gallery-item--6">
+                            <a target="_blank" href="img/gallery-fas-6.jpg"><img src="img/gallery-fas-6.jpg" class="gallery-img" alt=""></a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts my-4 my-xl-5 py-4 py-xl-5">
+            <div class="contacts__container container">
+                <div class="heading-wrapper d-flex justify-content-between align-items-center py-4 py-xl-5">
+                    <h2 class="heading--2">ЗАЛИШИЛИСЬ ЗАПИТАННЯ?<br><span class="font--color--green">НАПИШІТЬ
+                            НАМ!</span></h2>
+                </div>
+                <div class="contacts__wrapper py-4 py-xl-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+                            <h3 class="heading--3 mb-1 mb-xl-2">Заповніть форму, ми вам зателефонуємо</h3>
+                            <p class="mb-4 mb-xl-5">Ми отримаємо заявку і зателефонуємо вам</p>
+                            <form action="">
+                                <div class="form-wrapper d-flex flex-column">
+                                    <input class="form-wrapper__input mb-2 mb-xl-3" type="text" placeholder="Ваше ім’я">
+                                    <input class="form-wrapper__input mb-3 mb-xl-4" type="text"
+                                        placeholder="Ваш номер телефону">
+                                    <div class="button-wrapper">
+                                        <button class="form-wrapper__button button">Відправити заявку</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-lg-6 offset-lg-1">
+                            <h3 class="heading--3 mb-1 mb-xl-2">Або зв’яжіться з нами будь-яким зручним способом</h3>
+                            <p class="mb-4 mb-xl-5">Пишіть або телефонуйте, ми на зв’язку</p>
+                            <div class="data-wrapper">
+                                <div class="data-wrapper__phone mb-3 mb-xl-4">
+                                    <h4 class="heading--4 mb-1 mb-xl-2">Номер телефону</h4>
+                                    <div class="d-flex align-items-center">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M20.9898 17.2053C20.9469 16.9399 20.7805 16.713 20.5313 16.5782L16.8452 14.4058L16.8148 14.3888C16.6603 14.3114 16.4896 14.2717 16.3167 14.273C16.0079 14.273 15.713 14.3901 15.5083 14.5953L14.4203 15.6841C14.3738 15.7284 14.222 15.7924 14.176 15.7947C14.1634 15.7937 12.9101 15.7034 10.6028 13.3952C8.29952 11.0918 8.2018 9.83425 8.20103 9.83425C8.20232 9.76995 8.26557 9.6187 8.31057 9.57189L9.23835 8.64411C9.56518 8.31641 9.66315 7.77317 9.46926 7.35236L7.42034 3.49591C7.27145 3.18931 6.98217 3 6.66125 3C6.4342 3 6.21511 3.09414 6.04385 3.26519L3.51484 5.78926C3.27236 6.03053 3.06356 6.45236 3.01804 6.79189C2.99593 6.95419 2.54721 10.8284 7.85723 16.1407C12.3652 20.6494 15.8804 20.9998 16.8511 20.9998C16.9693 21.0013 17.0875 20.9952 17.2049 20.9815C17.5433 20.9362 17.9645 20.7279 18.2055 20.4864L20.7324 17.959C20.9386 17.7516 21.0328 17.4777 20.9898 17.2053Z" fill="var(--ogs-main-color)"/>
+                                        </svg>
+                                        <a href="" class="link--black main-text--medium ms-2">+38 (067) 525 28 28</a>
+                                    </div>
+                                </div>
+                                <div class="data-wrapper__address mb-3 mb-xl-4">
+                                    <h4 class="heading--4 mb-1 mb-xl-2">Адреса</h4>
+                                    <div class="d-flex align-items-center">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 1.5C9.81276 1.50258 7.71584 2.3726 6.16923 3.91922C4.62261 5.46584 3.75259 7.56276 3.75001 9.75C3.74739 11.5374 4.33124 13.2763 5.41201 14.7C5.41201 14.7 5.63701 14.9963 5.67376 15.039L12 22.5L18.3293 15.0353C18.3623 14.9955 18.588 14.7 18.588 14.7L18.5888 14.6978C19.669 13.2747 20.2526 11.5366 20.25 9.75C20.2474 7.56276 19.3774 5.46584 17.8308 3.91922C16.2842 2.3726 14.1873 1.50258 12 1.5ZM12 12.75C11.4067 12.75 10.8266 12.5741 10.3333 12.2444C9.83995 11.9148 9.45543 11.4462 9.22837 10.8981C9.00131 10.3499 8.9419 9.74667 9.05765 9.16473C9.17341 8.58279 9.45913 8.04824 9.87869 7.62868C10.2982 7.20912 10.8328 6.9234 11.4147 6.80764C11.9967 6.69189 12.5999 6.7513 13.1481 6.97836C13.6962 7.20542 14.1648 7.58994 14.4944 8.08329C14.8241 8.57664 15 9.15666 15 9.75C14.999 10.5453 14.6826 11.3078 14.1202 11.8702C13.5578 12.4326 12.7954 12.749 12 12.75Z" fill="var(--ogs-main-color)"/>
+                                        </svg>
+                                        <span class="font--color--primary-black main-text--medium ms-2">м. Івано-Франківськ,
+                                            вул. Є. Коновальця 229</span>
+                                    </div>
+                                </div>
+                                <div class="data-wrapper__mail mb-3 mb-xl-4">
+                                    <h4 class="heading--4 mb-1 mb-xl-2">Пошта</h4>
+                                    <div class="d-flex align-items-center">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.63778 6.50033L10.9711 11.2008C11.2511 11.3583 11.6133 11.433 11.9778 11.433C12.3422 11.433 12.7044 11.3583 12.9844 11.2008L21.3178 6.50033C21.8611 6.1935 22.3744 5 21.3778 5H2.57889C1.58222 5 2.09556 6.1935 2.63778 6.50033ZM21.57 9.0705L12.9844 13.7687C12.6067 13.9763 12.3422 14.0008 11.9778 14.0008C11.6133 14.0008 11.3489 13.9763 10.9711 13.7687C10.5933 13.561 3.04556 9.4065 2.42889 9.06933C1.99556 8.83133 2 9.11017 2 9.32483V17.8333C2 18.3233 2.62889 19 3.11111 19H20.8889C21.3711 19 22 18.3233 22 17.8333V9.326C22 9.11133 22.0044 8.8325 21.57 9.0705Z" fill="var(--ogs-main-color)"/>
+                                        </svg>
+                                        <a href="" class="link--black main-text--medium ms-2">ukrdim.if@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="data-wrapper__media">
+                                    <h4 class="heading--4 mb-1 mb-xl-2">Соціальні мережі</h4>
+                                    <div class="social-media d-flex align-items-center">
+                                        <div class="social-media__item me-2 me-xl-3">
+                                            <a href="" class="social-media__link social-media__link--fb">
+                                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="16" cy="16" r="13" fill="white" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM17.6677 16.7028V25.4077H14.0661V16.7031H12.2667V13.7034H14.0661V11.9024C14.0661 9.4552 15.0821 8 17.9688 8H20.3721V11.0001H18.8699C17.7462 11.0001 17.6718 11.4193 17.6718 12.2017L17.6677 13.7031H20.3891L20.0707 16.7028H17.6677Z"
+                                                        fill="var(--ogs-main-color)" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="social-media__item me-2 me-xl-3">
+                                            <a href="" class="social-media__link social-media__link--insta">
+                                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="16" cy="16" r="13" fill="white" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM12.4821 7.51816C13.3924 7.47673 13.6832 7.4666 16.0007 7.4666H15.9981C18.3163 7.4666 18.6061 7.47673 19.5163 7.51816C20.4248 7.55976 21.0452 7.70358 21.5892 7.91461C22.151 8.13239 22.6257 8.42394 23.1004 8.89862C23.575 9.37293 23.8666 9.84903 24.0853 10.4103C24.295 10.9529 24.439 11.573 24.4817 12.4814C24.5226 13.3916 24.5333 13.6825 24.5333 16C24.5333 18.3176 24.5226 18.6077 24.4817 19.5179C24.439 20.426 24.295 21.0463 24.0853 21.5891C23.8666 22.1501 23.575 22.6262 23.1004 23.1005C22.6262 23.5752 22.1508 23.8675 21.5898 24.0854C21.0468 24.2965 20.426 24.4403 19.5176 24.4819C18.6073 24.5233 18.3174 24.5334 15.9997 24.5334C13.6823 24.5334 13.3916 24.5233 12.4814 24.4819C11.5731 24.4403 10.9529 24.2965 10.4099 24.0854C9.84903 23.8675 9.37293 23.5752 8.89879 23.1005C8.4243 22.6262 8.13274 22.1501 7.91461 21.5889C7.70376 21.0463 7.55994 20.4262 7.51816 19.5177C7.47691 18.6075 7.4666 18.3176 7.4666 16C7.4666 13.6825 7.47727 13.3915 7.51798 12.4812C7.55887 11.5731 7.70287 10.9529 7.91443 10.4101C8.1331 9.84903 8.42465 9.37293 8.89933 8.89862C9.37364 8.42412 9.84974 8.13256 10.411 7.91461C10.9536 7.70358 11.5737 7.55976 12.4821 7.51816ZM16 12.4444C17.9636 12.4444 19.5556 14.0362 19.5556 16C19.5556 17.9636 17.9636 19.5556 16 19.5556C14.0362 19.5556 12.4444 17.9636 12.4444 16C12.4444 14.0362 14.0362 12.4444 16 12.4444ZM21.3333 11.5556C21.3333 11.0646 20.9353 10.6667 20.4444 10.6667C19.9535 10.6667 19.5556 11.0646 19.5556 11.5556C19.5556 12.0464 19.9535 12.4444 20.4444 12.4444C20.9353 12.4444 21.3333 12.0464 21.3333 11.5556Z"
+                                                        fill="var(--ogs-main-color)" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="social-media__item">
+                                            <a href="" class="social-media__link social-media__link--tg">
+                                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="16" cy="16" r="13" fill="white" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16ZM13.0667 23.3333L13.3389 19.2548L13.3387 19.2547L20.758 12.5593C21.0836 12.2703 20.6868 12.1294 20.2546 12.3915L11.0982 18.1682L7.14312 16.9338C6.289 16.6722 6.28287 16.0853 7.33488 15.6634L22.7469 9.72057C23.4508 9.40099 24.1302 9.88963 23.8615 10.967L21.2368 23.3354C21.0535 24.2143 20.5225 24.4245 19.7867 24.0185L15.7885 21.0646L13.8667 22.9333C13.8606 22.9392 13.8546 22.9451 13.8486 22.9509C13.6336 23.1602 13.4558 23.3333 13.0667 23.3333Z"
+                                                        fill="var(--ogs-main-color)" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-4 py-lg-5">
+        <div class="footer__container container">
+            <div class="footer__top py-3 py-xl-4">
+                <div class="row">
+                    <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                        <div class="footer__logo logo mb-4 mb-xl-5">
+                            <a href="#">
+                                <img src="img/logo-white.png" alt="">
+                            </a>
+                        </div>
+                        <div class="data-wrapper">
+                            <div class="data-wrapper__address mb-3 mb-xl-4">
+                                <div class="d-flex align-items-start">
+                                    <img class="me-2" src="img/icon-location-white.svg" alt="">
+                                    <span class="font--color--primary-white main-text--medium">м.
+                                        Івано-Франківськ,<br>вул. Є. Коновальця 229</span>
+                                </div>
+                            </div>
+                            <div class="data-wrapper__phone mb-3 mb-xl-4">
+                                <div class="d-flex align-items-center">
+                                    <img class="me-2" src="img/icon-telephone-white.svg" alt="">
+                                    <a href="" class="link--white main-text--medium">+38 (067) 525 28 28</a>
+                                </div>
+                            </div>
+                            <div class="data-wrapper__mail mb-3 mb-xl-4">
+                                <div class="d-flex align-items-center">
+                                    <img class="me-2" src="img/icon-mail-white.svg" alt="">
+                                    <a href="" class="link--white main-text--medium">ukrdim.if@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="data-wrapper__media">
+                                <div class="social-media d-flex align-items-center">
+                                    <div class="social-media__item me-2 me-xl-3">
+                                        <a href="" class="social-media__link social-media__link--fb">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="16" cy="16" r="13" fill="var(--ogs-main-color)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM17.6677 16.7028V25.4077H14.0661V16.7031H12.2667V13.7034H14.0661V11.9024C14.0661 9.4552 15.0821 8 17.9688 8H20.3721V11.0001H18.8699C17.7462 11.0001 17.6718 11.4193 17.6718 12.2017L17.6677 13.7031H20.3891L20.0707 16.7028H17.6677Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="social-media__item me-2 me-xl-3">
+                                        <a href="" class="social-media__link social-media__link--insta">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="16" cy="16" r="13" fill="var(--ogs-main-color)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM12.4821 7.51816C13.3924 7.47673 13.6832 7.4666 16.0007 7.4666H15.9981C18.3163 7.4666 18.6061 7.47673 19.5163 7.51816C20.4248 7.55976 21.0452 7.70358 21.5892 7.91461C22.151 8.13239 22.6257 8.42394 23.1004 8.89862C23.575 9.37293 23.8666 9.84903 24.0853 10.4103C24.295 10.9529 24.439 11.573 24.4817 12.4814C24.5226 13.3916 24.5333 13.6825 24.5333 16C24.5333 18.3176 24.5226 18.6077 24.4817 19.5179C24.439 20.426 24.295 21.0463 24.0853 21.5891C23.8666 22.1501 23.575 22.6262 23.1004 23.1005C22.6262 23.5752 22.1508 23.8675 21.5898 24.0854C21.0468 24.2965 20.426 24.4403 19.5176 24.4819C18.6073 24.5233 18.3174 24.5334 15.9997 24.5334C13.6823 24.5334 13.3916 24.5233 12.4814 24.4819C11.5731 24.4403 10.9529 24.2965 10.4099 24.0854C9.84903 23.8675 9.37293 23.5752 8.89879 23.1005C8.4243 22.6262 8.13274 22.1501 7.91461 21.5889C7.70376 21.0463 7.55994 20.4262 7.51816 19.5177C7.47691 18.6075 7.4666 18.3176 7.4666 16C7.4666 13.6825 7.47727 13.3915 7.51798 12.4812C7.55887 11.5731 7.70287 10.9529 7.91443 10.4101C8.1331 9.84903 8.42465 9.37293 8.89933 8.89862C9.37364 8.42412 9.84974 8.13256 10.411 7.91461C10.9536 7.70358 11.5737 7.55976 12.4821 7.51816ZM16 12.4444C17.9636 12.4444 19.5556 14.0362 19.5556 16C19.5556 17.9636 17.9636 19.5556 16 19.5556C14.0362 19.5556 12.4444 17.9636 12.4444 16C12.4444 14.0362 14.0362 12.4444 16 12.4444ZM21.3333 11.5556C21.3333 11.0646 20.9353 10.6667 20.4444 10.6667C19.9535 10.6667 19.5556 11.0646 19.5556 11.5556C19.5556 12.0464 19.9535 12.4444 20.4444 12.4444C20.9353 12.4444 21.3333 12.0464 21.3333 11.5556Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="social-media__item">
+                                        <a href="" class="social-media__link social-media__link--tg">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="16" cy="16" r="13" fill="var(--ogs-main-color)" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16ZM13.0667 23.3333L13.3389 19.2548L13.3387 19.2547L20.758 12.5593C21.0836 12.2703 20.6868 12.1294 20.2546 12.3915L11.0982 18.1682L7.14312 16.9338C6.289 16.6722 6.28287 16.0853 7.33488 15.6634L22.7469 9.72057C23.4508 9.40099 24.1302 9.88963 23.8615 10.967L21.2368 23.3354C21.0535 24.2143 20.5225 24.4245 19.7867 24.0185L15.7885 21.0646L13.8667 22.9333C13.8606 22.9392 13.8546 22.9451 13.8486 22.9509C13.6336 23.1602 13.4558 23.3333 13.0667 23.3333Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                        <h4 class="heading--4 font--color--primary-white mb-3 mb-xl-4">Карта сайту</h4>
+                        <nav class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Стяжка</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Покрівля</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Фасад</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Наші роботи</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Контакти</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h4 class="heading--4 font--color--primary-white mb-3 mb-xl-4">Послуги</h4>
+                        <nav class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Напівсуха стяжка</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Стяжка з полістиролбетону</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Бетонна промислова підлога</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Влаштування покрівлі</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Сервісне обсуговування покрівлі</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Фасадна дошка</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Декоративна штукатурка</a>
+                                </li>
+                                <li class="footer__item mb-2 mb-xl-3">
+                                    <a href="" class="footer__link link--white">Інші послуги</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom pt-4 pt-xl-5">
+                <div class="d-flex justify-content-between align-items-center font--color--primary-white">
+                    <span>УкрдіМ, 2022</span>
+                    <div class="d-flex align-items-center">
+                        <span class="me-1">Зроблено в</span>
+                        <img src="img/equator.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const swiperInfo1 = new Swiper('.swiper-info-1', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-arrow-info-1-next',
+                prevEl: '.swiper-arrow-info-1-prev',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
